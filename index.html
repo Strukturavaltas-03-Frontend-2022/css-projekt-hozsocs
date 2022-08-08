@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin oldal, 2 hét projekt feladat</title>
+    <meta name="description" content="CSS haladó képzés, 2. hét projekt feladata">
+    <meta name="keywords" content="Weboldalak, training360, oktatás, képzés, css haladó, projekt feladat">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Hőzső Csaba">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    </head>
+<body>
+    <header  class="header--dark">
+        <div class="flex_container">
+            
+            <div class="header__title">
+                <H3>Admin Page</H3>
+            </div>
+            
+            <div class="hamburger">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+                        
+            <div class="header__search">
+                <form action="">
+                <input class="search__input" type="text" id=”search” name="Search" rows=”30”> 
+                
+                <button class="search__btn" type="button">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button> 
+                </form>
+            </div> 
+            
+            <div class="emberke">
+                <i class="fa-solid fa-user"></i>
+            </div>
+
+        </div>
+    </header>
+
+    <main class="main__flexcontainer">
+        <aside class="flex_nav--container">
+            <nav class="main__nav">
+            <ul class="nav__ul">
+                <li class="ul__li--bigspace">
+                <span class="nav__li--hider"> CORE</span>
+                </li>
+                
+                <li class="ul__li--normalspace">
+                <div class="nav__li--color">
+                    <i class="fa-solid fa-gauge-high"></i>
+                    <span class="nav__li--hider">  &nbsp Dashboard </span>
+                    </div>
+                </li>
+                
+                <li class="ul__li--bigspace">
+                    <span class="nav__li--hider"> INTERFACE </span>
+                </li>
+                
+                <li class="ul__li--normalspace">
+                <div>
+                    <i class="fa-brands fa-windows"></i>
+                    <span class="nav__li--hider"> &nbsp Layouts &nbsp  > </span>
+                </div>
+                </li>
+                
+                <li class="ul__li--normalspace">
+                <div>
+                    <i class="fa-solid fa-bookmark"></i>
+                    <span class="nav__li--hider"> &nbsp Pages &nbsp &nbsp &nbsp > </span>
+                    </div> 
+                </li class="ul__li--normalspace">
+                
+                <li  class="ul__li--bigspace">
+                    <span class="nav__li--hider"> ADDONS </span>
+                </li>
+                
+                <li class="ul__li--normalspace"> 
+                    <div>
+                        <i class="fa-solid fa-chart-area"></i>
+                        <span class="nav__li--hider"> &nbsp Charts </span>
+                    </div>
+                </li>
+                
+                <li class="ul__li--normalspace">
+                    <div>
+                        <i class="fa-solid fa-table"></i>
+                        <span class="nav__li--hider"> &nbsp Tables </span>
+                    </div>    
+                </li>
+            </ul> 
+            </nav>
+        </aside>
+
+        <section class="content">
+            <div class="content--center">
+                <h1> Dashboard</h1>
+                <div class="main__breadcrumb">
+                    Dashboard
+                </div>
+            </div>
+            
+            <div class="main__cards">
+                <div class="main__card main__card--blue">
+                    <div class="card__top">
+                        Primary Card
+                    </div>
+                    <div class="card__bottom">
+                        <details>
+                            <summary>View Details</summary>
+                        </details>
+
+                    </div>
+                </div>
+                
+                <div class="main__card main__card--yellow">
+                    <div class="card__top">
+                        Warning Card
+                    </div>
+                    <div class="card__bottom">
+                        <details>
+                            <summary>View Details</summary>
+                        </details>
+
+                    </div>
+                </div>
+                
+                <div class="main__card main__card--green">
+                    <div class="card__top">
+                        Success Card
+                    </div>
+                    <div class="card__bottom">
+                        <details>
+                            <summary>View Details</summary>
+                        </details>
+
+                    </div>
+                </div>
+                
+                <div class="main__card main__card--red">
+                    <div class="card__top">
+                        Danger Card
+                    </div>
+                    <div class="card__bottom">
+                        <details>
+                            <summary>View Details</summary>
+                        </details>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>    
+
+    <script src="https://kit.fontawesome.com/fe2a24a025.js" crossorigin="anonymous"></script>
+
+</body>
+</html>
